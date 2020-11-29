@@ -1,0 +1,50 @@
+<?php 
+
+require_once "controladores/plantilla.controlador.php";
+require_once "controladores/usuarios.controlador.php";
+require_once "controladores/grado.controlador.php";
+require_once "controladores/seccion.controlador.php";
+require_once "controladores/tema.controlador.php";
+require_once "controladores/lectura.controlador.php";
+require_once "controladores/calificacion.controlador.php";
+require_once "controladores/unidad.controlador.php";
+require_once "controladores/tipopregunta.controlador.php";
+require_once "controladores/profesor.controlador.php";
+require_once "controladores/curso.controlador.php";
+require_once "controladores/nivelcritico.controlador.php";
+require_once "controladores/nivelliteral.controlador.php";
+require_once "controladores/nivelinferencial.controlador.php";
+require_once "controladores/sesion.controlador.php";
+require_once "controladores/alumno.controlador.php";
+require_once "controladores/matricula.controlador.php";
+require_once "controladores/examen.controlador.php";
+
+require_once "modelos/usuarios.modelo.php";
+require_once "modelos/grado.modelo.php";
+require_once "modelos/seccion.modelo.php";
+require_once "modelos/tema.modelo.php";
+require_once "modelos/lectura.modelo.php";
+require_once "modelos/calificacion.modelo.php";
+require_once "modelos/unidad.modelo.php";
+require_once "modelos/tipopregunta.modelo.php";
+require_once "modelos/profesor.modelo.php";
+require_once "modelos/curso.modelo.php";
+require_once "modelos/nivelcritico.modelo.php";
+require_once "modelos/nivelliteral.modelo.php";
+require_once "modelos/nivelinferencial.modelo.php";
+require_once "modelos/sesion.modelo.php";
+require_once "modelos/alumno.modelo.php";
+require_once "modelos/matricula.modelo.php";
+require_once "modelos/detalle_matricula.modelo.php";
+require_once "modelos/examen.modelo.php";
+require_once "modelos/examen_critico.modelo.php";
+require_once "modelos/examen_inferencial.modelo.php";
+require_once "modelos/examen_literal.modelo.php";
+require_once "modelos/pregunta_opcion.modelo.php";
+require_once "modelos/preguntas_criticas.modelo.php";
+require_once "modelos/preguntas_inferenciales.modelo.php";
+require_once "modelos/preguntas_literales.modelo.php";
+require_once "modelos/respuesta.modelo.php";
+
+$plantilla = new ControladorPlantilla();
+$plantilla -> ctrPlantilla();
